@@ -1,6 +1,6 @@
 const express = require('express');
-const data = require('./data.json');
-
+const data  = require('./data.json');
+const { projects } = data;
 const app = express();
 //view engine setup
 app.set('view engine', 'pug');
@@ -19,17 +19,24 @@ app.use('/static', express.static('public'));
 
 //routes setup
 app.get('/', (req, res) => {
+    res.locals.data = data.projects;
     res.render('index')
 })
 
 app.get('/about', (req, res) => {
     res.render('about');
-    
 })
 
-app.get('/project/:id', (req, res) => {
-    res.render('project', { data });
-
+app.get('/projects/:id', (req, res, next) => {
+    const { id } = req.params;
+    res.locals.project = projects[id];
+    if (res.locals.project == undefined) { 
+        console.log('this did not work');
+        next();
+    } else {
+        res.render('project');
+        console.log('this works');
+    }
 })
 
 /* ERROR HANDLERS */

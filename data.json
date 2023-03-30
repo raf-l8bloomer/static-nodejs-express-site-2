@@ -1,5 +1,6 @@
 {
-    "projects": [{
+    "projects": [
+        {
         "id": 0,
         "project_name": "Random Quote Generator",
         "description": "A display of random iconic quotes from RuPaul's Drag Race queens appearing every few seconds or at the click of a button.",
@@ -7,16 +8,15 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ],
+            ],
         "live_link": "https://rafael-lumang.github.io/random-quote-generator/",
         "github_link": "https://github.com/rafael-lumang/random-quote-generator",
         "image_urls": [
             "/images/random-quote-generator-square.jpeg",
             "/images/random-quote-generator-1.jpeg",
             "/images/random-quote-generator-2.jpeg",
-            "/images/random-quote-generator-3.jpeg",
-[]
-        ]
+            "/images/random-quote-generator-3.jpeg"
+            ]
         }, {
         "id": 1,
         "project_name": "Data Pagination and Filtering",
@@ -25,7 +25,7 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ],
+            ],
         "live_link": "https://rafael-lumang.github.io/data-pagination/",
         "github_link": "https://github.com/rafael-lumang/data-pagination",
         "image_urls": [
@@ -33,7 +33,7 @@
             "/images/data-pagination-filtering-1.jpeg",
             "/images/data-pagination-filtering-2.jpeg",
             "/images/data-pagination-filtering-3.jpeg"
-        ]
+            ]
         }, {
         "id": 2,
         "project_name": "Interactive Form",
@@ -42,7 +42,7 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ],
+            ],
         "live_link": "https://rafael-lumang.github.io/interactive-form/",
         "github_link": "https://github.com/rafael-lumang/interactive-form",
         "image_urls": [
@@ -50,7 +50,7 @@
             "interactive-form-1.jpeg",
             "interactive-form-2.jpeg",
             "interactive-form-3.jpeg"
-        ]
+            ]
         }, {
         "id": 3,
         "project_name": "OOP Game Show App",
@@ -59,7 +59,7 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ],
+            ],
         "live_link": "https://rafael-lumang.github.io/oop-game-show-app/",
         "github_link": "https://github.com/rafael-lumang/oop-game-show-app",
         "image_urls": [
@@ -69,7 +69,7 @@
             "oop-game-show-app-3.jpeg",
             "oop-game-show-app-4.jpeg",
             "oop-game-show-app-5.jpeg"
-        ]
+            ]
         }, {
         "id": 4,
         "project_name": "Public API Requests",
@@ -78,7 +78,7 @@
             "JavaScript",
             "HTML",
             "CSS"
-        ],
+            ],
         "live_link": "https://rafael-lumang.github.io/public-api-request/",
         "github_link": "https://github.com/rafael-lumang/public-api-request",
         "image_urls": [
@@ -86,7 +86,7 @@
             "public-api-requests-1.jpeg",
             "public-api-requests-2.jpeg",
             "public-api-requests-3.jpeg"
-        ]
+            ]
         }
     ]
 }
