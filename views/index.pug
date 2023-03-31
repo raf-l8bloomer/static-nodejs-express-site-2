@@ -5,10 +5,10 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Raf's Portfolio
+    h1 My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p A collection of coding projects exhibiting my Full-Stack Javascript skills! 
 
 
   article.portfolio-project-thumbs
@@ -16,8 +16,8 @@ block content
 
      each project in data
       .cell
-        a(href= `${project.live_link}`, target= "_blank")
-          img.thumbnail(src= `static${project.image_urls[0]}`, alt = `Thumbnail ${project.project_name}`)
+        a(href= `/projects/${project.id}`, target= "_blank")
+          img.thumbnail(src= `/static${project.image_urls[0]}`, alt = `Thumbnail ${project.project_name}`)
           h5 #{project.project_name}
       //- Use the Pug `each` iterator to loop over the projects in your data file  
     
@@ -31,8 +31,4 @@ block content
             img.thumbnail(src='https://placehold.it/550x550', alt='')
             h5 My Site
 
-      //- each project in projects
-      //-   .cell
-      //-     a(href= `${live_link}`)
-      //-       img.thumbnail(src= `${image_urls}`, alt='Thumbnail' + project_name)
-      //-       h5 #{project_name} 
+
