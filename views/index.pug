@@ -14,8 +14,13 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
+     each project in data
+      .cell
+        a(href= `${project.live_link}`, target= "_blank")
+          img.thumbnail(src= `./images/random-quote-generator-square.jpeg`, alt = `Thumbnail ${project.project_name}`)
+          h5 #{project.project_name}
       //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
+    
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
           //- The paths in the link's href and img's src attributes
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
@@ -26,3 +31,8 @@ block content
             img.thumbnail(src='https://placehold.it/550x550', alt='')
             h5 My Site
 
+      //- each project in projects
+      //-   .cell
+      //-     a(href= `${live_link}`)
+      //-       img.thumbnail(src= `${image_urls}`, alt='Thumbnail' + project_name)
+      //-       h5 #{project_name} 

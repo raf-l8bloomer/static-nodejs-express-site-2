@@ -29,13 +29,14 @@ app.get('/about', (req, res) => {
 
 app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
-    res.locals.project = projects[id];
-    if (res.locals.project == undefined) { 
+    project = projects[id];
+    if (project == undefined) { 
         console.log('this did not work');
         next();
     } else {
-        res.render('project');
+        res.render('project', { project });
         console.log('this works');
+        console.log(project.live_link)
     }
 })
 
@@ -64,5 +65,6 @@ app.use((err, req, res, next) => {
 })
 
 app.listen(3000, () => {
+    console.log(projects.livelink);
     console.log('This application is running on localhost:3000! fr this time')
 })
