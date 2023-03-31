@@ -17,7 +17,7 @@ block content
      each project in data
       .cell
         a(href= `${project.live_link}`, target= "_blank")
-          img.thumbnail(src= `./images/random-quote-generator-square.jpeg`, alt = `Thumbnail ${project.project_name}`)
+          img.thumbnail(src= `static${project.image_urls[0]}`, alt = `Thumbnail ${project.project_name}`)
           h5 #{project.project_name}
       //- Use the Pug `each` iterator to loop over the projects in your data file  
     

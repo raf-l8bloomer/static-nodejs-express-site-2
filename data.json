@@ -46,10 +46,10 @@
         "live_link": "https://rafael-lumang.github.io/interactive-form/",
         "github_link": "https://github.com/rafael-lumang/interactive-form",
         "image_urls": [
-            "interactive-form-square.jpeg",
-            "interactive-form-1.jpeg",
-            "interactive-form-2.jpeg",
-            "interactive-form-3.jpeg"
+            "/images/interactive-form-square.jpeg",
+            "/images/interactive-form-1.jpeg",
+            "/images/interactive-form-2.jpeg",
+            "/images/interactive-form-3.jpeg"
             ]
         }, {
         "id": 3,
@@ -63,12 +63,12 @@
         "live_link": "https://rafael-lumang.github.io/oop-game-show-app/",
         "github_link": "https://github.com/rafael-lumang/oop-game-show-app",
         "image_urls": [
-            "oop-game-show-app-square.jpeg",
-            "oop-game-show-app-1.jpeg",
-            "oop-game-show-app-2.jpeg",
-            "oop-game-show-app-3.jpeg",
-            "oop-game-show-app-4.jpeg",
-            "oop-game-show-app-5.jpeg"
+            "/images/oop-game-show-app-square.jpeg",
+            "/images/oop-game-show-app-1.jpeg",
+            "/images/oop-game-show-app-2.jpeg",
+            "/images/oop-game-show-app-3.jpeg",
+            "/images/oop-game-show-app-4.jpeg",
+            "/images/oop-game-show-app-5.jpeg"
             ]
         }, {
         "id": 4,
@@ -82,10 +82,10 @@
         "live_link": "https://rafael-lumang.github.io/public-api-request/",
         "github_link": "https://github.com/rafael-lumang/public-api-request",
         "image_urls": [
-            "public-api-requests-square.jpeg",
-            "public-api-requests-1.jpeg",
-            "public-api-requests-2.jpeg",
-            "public-api-requests-3.jpeg"
+            "/images/public-api-requests-square.jpeg",
+            "/images/public-api-requests-1.jpeg",
+            "/images/public-api-requests-2.jpeg",
+            "/images/public-api-requests-3.jpeg"
             ]
         }
     ]
